@@ -42,23 +42,24 @@ class ApplicationSidebar extends React.Component {
 
                   <SidebarNavItem glyph='icon-fontello-gauge' name='Dashboard' href={::this.getPath('dashboard')} />
                   <SidebarNavItem glyph='icon-ikons-calendar' name='Events' href={::this.getPath('calendar')} />
-                  <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Attendance' href={::this.getPath('gallery')} />
-                  <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Volunteers' href={::this.getPath('gallery')} />
+                  <SidebarNavItem glyph='icon-fontello-chart-1' name='Attendance' href={::this.getPath('gallery')} />
+                  <SidebarNavItem glyph='icon-fontello-right-hand' name='Volunteers' href={::this.getPath('gallery')} />
                   <SidebarNavItem glyph='icon-ikons-iphone' name={<span>Mobile <Label className='bg-darkgreen45 fg-white'></Label></span>}>
                     <SidebarNav>
                       <SidebarNavItem glyph='icon-ikons-user' name='Users' href={::this.getPath('users')} />
                       <SidebarNavItem glyph='icon-ikons-users' name='Groups' href={::this.getPath('groups')} />
                     </SidebarNav>
                   </SidebarNavItem>
-                  <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Messages' href={::this.getPath('gallery')} />
-                  <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Directory' href={::this.getPath('gallery')} />
-                  <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Finances' href={::this.getPath('gallery')} />
+                  <SidebarNavItem glyph='icon-dripicons-message' name='Messages' href={::this.getPath('gallery')} />
+                  <SidebarNavItem glyph='icon-fontello-list' name='Directory' href={::this.getPath('gallery')} />
+                  <SidebarNavItem glyph='icon-fontello-dollar' name='Finances' href={::this.getPath('gallery')} />
 
                   <SidebarNavItem glyph='icon-feather-mail' name={<span>Mailbox <Label className='bg-darkgreen45 fg-white'>3</Label></span>}>
                     <SidebarNav>
                       <SidebarNavItem glyph='icon-feather-inbox' name='Inbox' href={::this.getPath('mailbox/inbox')} />
                       <SidebarNavItem glyph='icon-outlined-mail-open' name='Mail' href={::this.getPath('mailbox/mail')} />
                       <SidebarNavItem glyph='icon-dripicons-message' name='Compose' href={::this.getPath('mailbox/compose')} />
+                      <SidebarNavItem glyph='icon-feather-clock' name='Automated' href={::this.getPath('mailbox/automation')} />
                     </SidebarNav>
                   </SidebarNavItem>
                   <SidebarNavItem glyph='icon-pixelvicon-photo-gallery' name='Gallery' href={::this.getPath('gallery')} />
